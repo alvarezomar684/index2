@@ -1,0 +1,176 @@
+@media (max-width: 1320px){
+
+    .son-03 a {    
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+        display: block;
+        border-radius: 5px;
+        margin-left: 20px;
+        margin-top: 10px;    
+    }
+}
+
+@media (max-width: 960px){
+
+    .son-03  h1 {
+        font-size: 40px;        
+    }
+
+    .subtittle {
+        font-size: 40px        
+    }
+
+    .son-01 {
+        margin-top: -400px;        
+    }
+
+    .gear {
+        font-size: 26px;
+        margin: 0 auto;      
+    }
+
+    img {
+        width: 70%;
+        height: 47%;
+    }
+
+    .son-02 {
+        margin-top: 100px;
+        margin-right: -40px;
+    }
+
+    .son-03 {
+        margin-top: -372px;
+        flex-basis: 39%;        
+        display: flex;   
+        flex-flow: row wrap;
+        height: 420px;
+        justify-content: space-between;
+        transition: all 1.2s;    
+        
+    }
+
+    .grandchild-03-02 > p {
+        text-align: justify;
+    }
+
+    .grandchild-03-03 {    
+        flex-basis: 46%;  
+    }
+
+    .son-03 a {    
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+        display: block;
+        border-radius: 5px;
+        margin-left: 20px;
+        margin-top: 10px;    
+    }   
+
+    .son-04 {
+        margin-top: -400px;
+    }
+
+    
+}
+
+@media (max-width: 540px){
+
+    .father {
+        flex-flow: row wrap;  
+        
+    }
+
+    .son-02 {
+        height: auto;
+        width: 200px;
+    }
+
+    .son-02 img {
+        width: 62%;
+        height: 31%;
+        border-radius: 192px;        
+        
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-bottom: 0px;
+    }
+
+    .son {        
+        margin: 0 auto;
+    }
+
+    .son-01 {    
+        flex-basis: 5%;  
+    }
+
+    .gear {
+        font-size: 20px;            
+    }
+
+    .son-02 {  
+        flex-basis: 85%;        
+            
+    }
+
+    .son-03 {    
+        flex-basis: 85%;
+        margin-left: 78px;
+    }
+
+    .son-03  h1 {
+        font-size: 27px;        
+    }
+
+    .subtittle {
+        font-size: 27px        
+    }
+
+    .grandchild-03-02 {
+        flex-basis: 338px;
+        
+    }
+
+
+    .son-04 {    
+        flex-basis: 5%;    
+        margin-right: 25px;
+        display: flex;
+        flex-flow: row wrap;    
+        height: auto;
+    }
+
+    .grandchild-03-03 {    
+        flex-basis: 37%;
+        height: 10%; 
+    }
+
+    .son-03 a {    
+        text-align: center;
+        font-size: 15px;
+        font-weight: 600;
+        display: block;
+        border-radius: 5px;
+        margin-left: 20px;
+        margin-top: 10px;    
+    }   
+
+    .great-great-grandchild-03-02 {
+        
+        height: 18px;
+        border-radius: 20px;
+        padding: 9px;
+    }
+    
+    .arrow {
+        font-size: 17px;       
+    }
+
+    .son-04 {
+        margin-top: -1334px;
+    }
+
+
+}

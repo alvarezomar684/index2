@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: content-box;    
-    
     font-family: 'Open Sans';
     color: #FFFFFF;
     list-style: none;
@@ -63,14 +62,11 @@ img {
 
 }
 
-.son {
-    
+.son {    
     height: 360px;
     margin-left: 5px;
     margin-right: 5px;
-    display: flex;
-    
-    
+    display: flex;     
 }
 
 .son-01 {
@@ -80,14 +76,36 @@ img {
     border-radius: 5px;
     width: auto;
     height: auto;
-    padding: 10px;
-    
+    padding: 10px;    
 }
+
+.gear {
+    font-size: 35px;
+    color: black;
+    margin-left: 20px;    
+    margin: 0 auto;  
+    animation-name: rotate-gear; 
+    animation-duration: 2s;
+    animation-iteration-count: infinite; 
+    animation-timing-function: linear; 
+}
+
+/*  Animacion engrane   */
+
+@keyframes rotate-gear {    /*  creacion de la animacion   */
+    from {  
+        transform: rotateZ(0deg);
+    }
+    to { 
+        transform: rotateZ(360deg);
+    }
+}
+
+/*  Animacion engrane   */
 
 .son-02 {
     flex-basis: 35%;
-    height: 907px;
-    /*border: 5px solid pink;*/
+    height: 907px;    
     margin-top: 40px;
     margin-bottom: 40px;
     margin-left: 30px;
@@ -96,8 +114,7 @@ img {
 
 
 .son-03 {
-    flex-basis: 43%;
-    /*border: 5px solid white;*/
+    flex-basis: 43%;    
     display: flex;   
     flex-flow: row wrap;
     height: 420px;
@@ -107,38 +124,26 @@ img {
     
 }
 
-.grandchild-03-01 {
-    /*border: 5px solid red;*/
-    flex-basis: 100%;
-    /*height: 28%;*/
+.grandchild-03-01 {   
+    flex-basis: 100%;    
 }
 
 .grandchild-03-02 {
-    /*border: 5px solid blue;*/
+    
     flex-basis: 100%;
-    /*height: 28%;*/
-    /*justify-content: center;*/
-    /*text-align: center;*/
+    
 }
 
 .grandchild-03-03 {
-    /*border: 5px solid green;*/
+    
     flex-basis: 30%;
     height: 11%;
     display: flex;
     flex-flow: row wrap;
     align-content: center;
-    justify-content: space-evenly;
-
-    
+    justify-content: space-evenly;  
 
 }
-
-.great-great-grandchild-03-02 {
-    /*align-self: flex-end;*/
-}
-
-
 
 .son-04 {
     flex-basis: 5%;    
@@ -282,6 +287,7 @@ li:hover .overlay1, li:hover .overlay2, li:hover .overlay3, li:hover .overlay4 {
     display: block;
     border-radius: 5px;
     margin-right: 20px;
+    
 
 }
 
@@ -293,40 +299,10 @@ li:hover .overlay1, li:hover .overlay2, li:hover .overlay3, li:hover .overlay4 {
 }
 
 .arrow {
-    font-size: 20px;
-    
-    display: block;
-    
-    
-    
+    font-size: 20px;    
+    display: block;      
     
 }
-
-.gear {
-    font-size: 35px;
-    color: black;
-    margin-left: 20px;    
-    
-    animation-name: rotate-gear; 
-    animation-duration: 2s;
-    animation-iteration-count: infinite; 
-    animation-timing-function: linear; 
-}
-
-/*  Animacion engrane   */
-
-@keyframes rotate-gear {    /*  creacion de la animacion   */
-    from {  
-        transform: rotateZ(0deg);
-    }
-    to { 
-        transform: rotateZ(360deg);
-    }
-}
-
-/*  Animacion engrane   */
-
-
 
 .son-04 a:hover {    
     background-color: #ffb400;
